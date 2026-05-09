@@ -1,0 +1,673 @@
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vũ Huy Hoàng | Frontend ReactJS Developer Portfolio</title>
+  <meta name="description"
+    content="Portfolio của Vũ Huy Hoàng - Kỹ sư Frontend ReactJS. Xây dựng giải pháp công nghệ, tối ưu giá trị kinh doanh.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/all.min.css">
+  <link rel="stylesheet" href="./styles/remixicon.min.css">
+  <meta name="readdy-project-version"
+    content="5e928c1cfc0f68ff3f02ac4916260ce8:3b6663b3ab65a282f3c964722fdc3a16:202e1bab8636aa1e653d95aa0dfaca6dd51b93697e3c7440ba953c9bf823bd2f93a653ea25fe452cd4ad22d2ba6e6c24fa8fa5ff1afaef6e988e06f6baf5f412">
+  <script type="module" crossorigin="" src="./scripts/index-W2qNPRFK.js"></script>
+  <link rel="modulepreload" crossorigin=""
+    href="/preview/e2ca5af8-1682-49ad-a2dc-a76ce44ad29b/9393524/assets/config-mYJVcbK0.js">
+  <link rel="stylesheet" crossorigin="" href="./styles/index-wLMI1l4s.css">
+  <style id="fusion-selection-styles">
+    .fusion-element-highlight {
+      outline: 2px solid rgb(26, 115, 235) !important;
+      outline-style: solid !important;
+    }
+
+    .fusion-element-selected {
+      outline: 4px solid rgb(26, 115, 235) !important;
+      outline-style: solid !important;
+      outline-offset: 0px !important;
+    }
+
+    .fusion-selection-overlay {
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      background: rgba(0, 0, 0, 0.05) !important;
+      z-index: 2147483647 !important;
+      cursor: crosshair !important;
+      pointer-events: none !important;
+    }
+
+    .fusion-selection-tooltip {
+      position: fixed !important;
+      background: #1f2937 !important;
+      color: white !important;
+      padding: 8px 12px !important;
+      border-radius: 6px !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      z-index: 2147483648 !important;
+      pointer-events: none !important;
+      transform: translate(-50%, -100%) translateY(-10px) !important;
+      white-space: nowrap !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .fusion-selection-tooltip::after {
+      content: '' !important;
+      position: absolute !important;
+      top: 100% !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      border: 5px solid transparent !important;
+      border-top-color: #1f2937 !important;
+    }
+
+
+    @keyframes fusion-fade-in {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fusion-label-bounce {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.9);
+      }
+
+      50% {
+        opacity: 1;
+        transform: translateY(0) scale(1.05);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+  </style>
+  <link type="image/jpg" rel="icon" href="./images/55cd9d5c-82db-489e-b886-9acbd53cdf5d_481067383_1653856322172172_1881810583660677981_n.jpg">
+  <link rel="stylesheet" href="/css2">
+  <script src="./scripts/array.full.min.js" async></script>
+  <!-- Email Handler Scripts -->
+  <script src="./scripts_v2/email-handler.js" async></script>
+  <script src="./scripts_v2/cv-handler.js" async></script>
+  <script src="./scripts_v2/mobile-nav.js" async></script>
+</head>
+
+<body>
+  <div id="root">
+    <div class="min-h-screen bg-dark font-inter">
+      <header
+        class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-strong shadow-lg shadow-black/20">
+        <div class="w-full px-6 md:px-10 lg:px-16">
+          <div class="flex items-center justify-between h-16 md:h-20"><a href="#"
+              class="text-white font-bold text-lg md:text-xl tracking-wide whitespace-nowrap">VU HUY HOANG</a>
+            <nav class="hidden md:flex items-center gap-8"><a href="#about"
+                class="text-white/70 hover:text-accent text-sm font-medium transition-colors whitespace-nowrap">Giới
+                thiệu</a><a href="#projects"
+                class="text-white/70 hover:text-accent text-sm font-medium transition-colors whitespace-nowrap">Dự
+                án</a><a href="#services"
+                class="text-white/70 hover:text-accent text-sm font-medium transition-colors whitespace-nowrap">Dịch
+                vụ</a><a href="#contact"
+                class="text-white/70 hover:text-accent text-sm font-medium transition-colors whitespace-nowrap">Liên
+                hệ</a></nav>
+            <div class="hidden md:block"><button onclick="handleCVDownload()"
+                class="btn-primary px-5 py-2.5 rounded-md text-sm font-semibold whitespace-nowrap cursor-pointer border-none">Tải
+                CV</button></div><button
+              class="md:hidden w-10 h-10 flex items-center justify-center text-white cursor-pointer"
+              aria-label="Menu"><i class="ri-menu-line text-xl"></i></button>
+          </div>
+        </div>
+      </header>
+      <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0"><img alt="Tech background" class="w-full h-full object-cover object-top"
+            src="./images/api_search-image.bin">
+          <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-dark"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40"></div>
+        </div>
+        <div class="absolute top-1/4 left-1/4 w-72 h-72 bg-accent/10 rounded-full blur-[100px]"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-emerald/5 rounded-full blur-[120px]"></div>
+        <div class="relative z-10 w-full px-6 md:px-10 lg:px-16 pt-20">
+          <div class="max-w-4xl mx-auto text-center">
+            <div style="opacity: 1; transform: none;">
+              <p class="text-accent text-sm md:text-base font-medium tracking-widest uppercase mb-6">Expert Business
+                Problem Solver</p>
+            </div>
+            <div style="opacity: 1; transform: none;">
+              <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">Xây dựng
+                giải pháp công nghệ, <span class="text-gradient">tối ưu giá trị kinh doanh</span></h1>
+            </div>
+            <div style="opacity: 1; transform: none;">
+              <p class="text-white/60 text-base md:text-lg mb-4">Tôi là Vũ Huy Hoàng - Kỹ sư phần mềm Frontend ReactJS
+              </p>
+            </div>
+            <div style="opacity: 1; transform: none;">
+              <p class="text-white/50 text-sm md:text-base max-w-2xl mx-auto mb-10 leading-relaxed">Thay vì chỉ viết
+                code, tôi giải quyết bài toán kinh doanh qua UI trực quan và xử lý mượt mà.</p>
+            </div>
+            <div style="opacity: 1; transform: none;">
+              <div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="#projects"
+                  class="btn-primary px-8 py-3.5 rounded-md text-sm md:text-base font-semibold whitespace-nowrap inline-block">Xem
+                  dự án</a><a href="#contact"
+                  class="btn-outline px-8 py-3.5 rounded-md text-sm md:text-base font-semibold whitespace-nowrap inline-block">Liên
+                  hệ ngay</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2">
+          <div class="w-6 h-10 rounded-full border-2 border-white/30 flex items-start justify-center pt-2">
+            <div class="w-1 h-2 bg-white/50 rounded-full animate-bounce"></div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="py-20 md:py-28 px-6 md:px-10 lg:px-16">
+        <div class="max-w-6xl mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div style="opacity: 1; transform: none;">
+              <div class="relative group mx-auto max-w-md lg:max-w-none">
+                <div
+                  class="absolute -inset-3 border border-accent/20 rounded-2xl transform rotate-2 transition-transform duration-500 group-hover:rotate-1">
+                </div>
+                <div
+                  class="absolute -inset-3 border border-emerald/10 rounded-2xl transform -rotate-1 transition-transform duration-500 group-hover:-rotate-2">
+                </div>
+                <div class="relative rounded-2xl overflow-hidden border border-white/10"><img alt="Vũ Huy Hoàng"
+                    class="w-full aspect-[4/5] object-cover object-top"
+                    src="./images/55cd9d5c-82db-489e-b886-9acbd53cdf5d_481067383_1653856322172172_1881810583660677981_n.jpg">
+                  <div class="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent"></div>
+                </div>
+                <div
+                  class="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 glass rounded-xl px-4 py-3 border border-accent/20">
+                  <p class="text-accent text-xs font-semibold uppercase tracking-wider">Frontend Developer</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div style="opacity: 1; transform: none;">
+                <p class="text-accent text-sm font-medium tracking-widest uppercase mb-3">Giới thiệu</p>
+                <h2 class="text-2xl md:text-4xl font-bold text-white mb-6">Vũ Huy Hoàng</h2>
+              </div>
+              <div style="opacity: 1; transform: none;">
+                <p class="text-white/60 text-sm md:text-base leading-relaxed mb-5">Kỹ sư phần mềm <span
+                    class="text-accent font-medium">Frontend</span> với kinh nghiệm xây dựng <span
+                    class="text-accent font-medium">các hệ thống doanh nghiệp quy mô lớn</span>. Tôi không chỉ viết code
+                  — tôi giải quyết bài toán kinh doanh thông qua giao diện trực quan và trải nghiệm người dùng xuất sắc.
+                </p>
+              </div>
+              <div style="opacity: 1; transform: none;">
+                <p class="text-white/50 text-sm md:text-base leading-relaxed mb-5">Từng tham gia phát triển các dự án
+                  <span class="text-accent font-medium">chuyển đổi số</span> cho cơ quan nhà nước, hệ sinh thái chống
+                  lừa đảo, nền tảng giáo dục đại học và hệ thống quản lý phục hồi nhà ở sau thiên tai.
+                </p>
+              </div>
+              <div style="opacity: 1; transform: none;">
+                <p class="text-white/50 text-sm md:text-base leading-relaxed mb-8">Bên cạnh các sản phẩm tiêu biểu, tôi
+                  cùng <span class="text-accent font-medium">đội ngũ chuyên môn</span> đã và đang triển khai nhiều dự
+                  <span class="text-accent font-medium">đa lĩnh vực</span> khác. Hiện tại tôi đang mở rộng hợp tác với
+                  doanh nghiệp và startup — nếu bạn cần một người đồng hành đáng tin cậy để biến ý tưởng thành hiện
+                  thực, hãy liên hệ trực tiếp.
+                </p>
+              </div>
+              <div style="opacity: 1; transform: none;"><a href="#contact"
+                  class="btn-primary px-8 py-3.5 rounded-md text-sm font-semibold whitespace-nowrap inline-block">Liên
+                  hệ với tôi</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="py-20 md:py-28 px-6 md:px-10 lg:px-16">
+        <div class="max-w-6xl mx-auto">
+          <div style="opacity: 1; transform: none;">
+            <div class="text-center mb-14 md:mb-20">
+              <p class="text-accent text-sm font-medium tracking-widest uppercase mb-3">Dịch vụ</p>
+              <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Giải pháp tôi cung cấp</h2>
+              <p class="text-white/50 text-sm md:text-base max-w-xl mx-auto">Chuyển đổi ý tưởng thành sản phẩm công nghệ
+                với chất lượng cao và trải nghiệm người dùng vượt trội.</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="glass rounded-xl p-6 md:p-8 group hover:border-accent/30 transition-all duration-300 glow-accent h-full">
+                <div class="w-14 h-14 flex items-center justify-center mb-6 rounded-lg bg-accent/10 text-accent"><i
+                    class="ri-code-box-line text-2xl"></i></div>
+                <h3 class="text-lg md:text-xl font-semibold text-white mb-3">Phát triển Web / Mobile App trọn gói</h3>
+                <p class="text-white/50 text-sm leading-relaxed">Từ ý tưởng đến sản phẩm hoàn chỉnh — thiết kế UI/UX,
+                  phát triển frontend, và tối ưu hiệu năng.</p>
+              </div>
+            </div>
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="glass rounded-xl p-6 md:p-8 group hover:border-accent/30 transition-all duration-300 glow-accent h-full">
+                <div class="w-14 h-14 flex items-center justify-center mb-6 rounded-lg bg-accent/10 text-accent"><i
+                    class="ri-graduation-cap-line text-2xl"></i></div>
+                <h3 class="text-lg md:text-xl font-semibold text-white mb-3">Giảng dạy Lập trình</h3>
+                <p class="text-white/50 text-sm leading-relaxed">Chia sẻ kinh nghiệm thực chiến về lập trình và các công
+                  nghệ hiện đại qua các khóa học.</p>
+              </div>
+            </div>
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="glass rounded-xl p-6 md:p-8 group hover:border-accent/30 transition-all duration-300 glow-accent h-full">
+                <div class="w-14 h-14 flex items-center justify-center mb-6 rounded-lg bg-accent/10 text-accent"><i
+                    class="ri-movie-2-line text-2xl"></i></div>
+                <h3 class="text-lg md:text-xl font-semibold text-white mb-3">Chỉnh sửa video ngắn</h3>
+                <p class="text-white/50 text-sm leading-relaxed">Biên tập video ngắn chất lượng cao cho nội dung giáo
+                  dục, quảng cáo và truyền thông số.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="py-20 md:py-28 px-6 md:px-10 lg:px-16">
+        <div class="max-w-6xl mx-auto">
+          <div style="opacity: 1; transform: none;">
+            <div class="text-center mb-14 md:mb-20">
+              <p class="text-accent text-sm font-medium tracking-widest uppercase mb-3">Dự án</p>
+              <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Các dự án nổi bật</h2>
+              <p class="text-white/50 text-sm md:text-base max-w-xl mx-auto">Tổng hợp những dự án thực tế mà tôi đã tham
+                gia phát triển, từ hệ thống quản lý đến giải pháp an ninh mạng.</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="group glass rounded-xl overflow-hidden hover:border-accent/30 transition-all duration-300 hover:-translate-y-1 hover:glow-accent h-full flex flex-col">
+                <div class="relative overflow-hidden aspect-video"><img
+                    alt="Hệ thống Chuyển đổi số & Quản lý quy trình cho Cơ quan Nhà nước"
+                    class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                    title="Hệ thống Chuyển đổi số & Quản lý quy trình cho Cơ quan Nhà nước"
+                    src="./images/api_search-image.jpg">
+                  <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
+                </div>
+                <div class="p-5 md:p-6 flex-1 flex flex-col">
+                  <h3
+                    class="text-lg md:text-xl font-semibold text-white mb-2 group-hover:text-accent transition-colors">
+                    Hệ thống Chuyển đổi số &amp; Quản lý quy trình cho Cơ quan Nhà nước</h3><span
+                    class="self-start px-2.5 py-0.5 text-xs font-medium rounded-full bg-accent/10 text-accent border border-accent/20 whitespace-nowrap mb-3">Front
+                    End Developer</span>
+                  <p class="text-white/50 text-sm leading-relaxed mb-4">Nền tảng số hóa và tự động hóa các luồng quy
+                    trình nghiệp vụ hành chính phức tạp cho cơ quan nhà nước.</p>
+                  <div class="space-y-2.5 mb-5 flex-1">
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Số hóa &amp; Tự động hóa quy trình</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Phát triển hệ thống quản lý hồ sơ và tự động
+                          hóa các luồng quy trình nghiệp vụ hành chính phức tạp.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">UI Components quy mô lớn</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Xây dựng hệ thống UI Components dựa trên Ant
+                          Design Pro (ProTable, ProForm, ProList) để xử lý lượng lớn dữ liệu đầu vào.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Tối ưu hiệu năng &amp; UX</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Tối ưu hóa hiệu năng render và đảm bảo trải
+                          nghiệm người dùng khắt khe cho các tác vụ quản trị đặc thù.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-white/5"><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">ReactJS</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">TypeScript</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Ant
+                      Design Pro</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Axios</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="group glass rounded-xl overflow-hidden hover:border-accent/30 transition-all duration-300 hover:-translate-y-1 hover:glow-accent h-full flex flex-col">
+                <div class="relative overflow-hidden aspect-video"><img alt="Quản lý phục hồi nhà ở sau thiên tai"
+                    class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                    title="Quản lý phục hồi nhà ở sau thiên tai" src="./images/phuchoinhaosauthientai.jpg">
+                  <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
+                </div>
+                <div class="p-5 md:p-6 flex-1 flex flex-col">
+                  <h3
+                    class="text-lg md:text-xl font-semibold text-white mb-2 group-hover:text-accent transition-colors">
+                    Quản lý phục hồi nhà ở sau thiên tai</h3><span
+                    class="self-start px-2.5 py-0.5 text-xs font-medium rounded-full bg-accent/10 text-accent border border-accent/20 whitespace-nowrap mb-3">Frontend
+                    Developer</span>
+                  <p class="text-white/50 text-sm leading-relaxed mb-4">Hệ thống hỗ trợ công tác phục hồi nhà ở sau
+                    thiên tai với công cụ hợp đồng động, quản lý nhân sự và dashboard quản trị.</p>
+                  <div class="space-y-2.5 mb-5 flex-1">
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Công cụ tạo hợp đồng động</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Phát triển công cụ tạo hợp đồng động với tính
+                          năng kéo thả cho các mẫu phức tạp.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Quản lý nhân sự &amp; lịch trình</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Xây dựng hệ thống quản lý lịch trình và tích
+                          hợp mobile app cho nhân sự.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Bảng điều khiển quản trị</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Phát triển các công cụ quản lý lõi và tiện ích
+                          hệ thống.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-white/5"><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">ReactJS</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">TypeScript</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Ant
+                      Design</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">QuillJS</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Axios</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="group glass rounded-xl overflow-hidden hover:border-accent/30 transition-all duration-300 hover:-translate-y-1 hover:glow-accent h-full flex flex-col">
+                <div class="relative overflow-hidden aspect-video"><img alt="Hệ sinh thái chống lừa đảo trực tuyến"
+                    class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                    title="Hệ sinh thái chống lừa đảo trực tuyến" src="./images/chongluadaotructuyen.jpg">
+                  <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
+                </div>
+                <div class="p-5 md:p-6 flex-1 flex flex-col">
+                  <h3
+                    class="text-lg md:text-xl font-semibold text-white mb-2 group-hover:text-accent transition-colors">
+                    Hệ sinh thái chống lừa đảo trực tuyến</h3><span
+                    class="self-start px-2.5 py-0.5 text-xs font-medium rounded-full bg-accent/10 text-accent border border-accent/20 whitespace-nowrap mb-3">Front
+                    End Developer</span>
+                  <p class="text-white/50 text-sm leading-relaxed mb-4">Giải pháp toàn diện phát hiện và cảnh báo lừa
+                    đảo trực tuyến qua Dashboard quản lý, trang quảng bá và tiện ích trình duyệt.</p>
+                  <div class="space-y-2.5 mb-5 flex-1">
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Bảng điều khiển quản trị</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Quản lý cơ sở dữ liệu đối tượng lừa đảo, tài
+                          khoản quyên góp và lịch sử giao dịch.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Trang quảng bá hệ sinh thái</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Phát triển trang quảng bá hệ sinh thái, tích
+                          hợp Discord Webhook.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Tiện ích mở rộng Chrome</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Xây dựng công cụ tra cứu, báo cáo lừa đảo và
+                          cảnh báo an ninh thời gian thực.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-white/5"><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">ReactJS</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">TypeScript</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Vite
+                      &amp; WXT</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Ant
+                      Design</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">TailwindCSS</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Socket.io</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="group glass rounded-xl overflow-hidden hover:border-accent/30 transition-all duration-300 hover:-translate-y-1 hover:glow-accent h-full flex flex-col">
+                <div class="relative overflow-hidden aspect-video"><img alt="Chuyển đổi số Giáo dục Đại học"
+                    class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                    title="Chuyển đổi số Giáo dục Đại học" src="./images/chuyendoisogiaoducdaihoc.jpg">
+                  <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent"></div>
+                </div>
+                <div class="p-5 md:p-6 flex-1 flex flex-col">
+                  <h3
+                    class="text-lg md:text-xl font-semibold text-white mb-2 group-hover:text-accent transition-colors">
+                    Chuyển đổi số Giáo dục Đại học</h3><span
+                    class="self-start px-2.5 py-0.5 text-xs font-medium rounded-full bg-accent/10 text-accent border border-accent/20 whitespace-nowrap mb-3">Frontend
+                    Developer</span>
+                  <p class="text-white/50 text-sm leading-relaxed mb-4">Nền tảng chuyển đổi số toàn diện cho giáo dục
+                    đại học với học trực tuyến, hệ thống thi cử và quản trị vận hành.</p>
+                  <div class="space-y-2.5 mb-5 flex-1">
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Học trực tuyến</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Phát triển module streaming video, quản lý lớp
+                          học và hội viên.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Hệ thống thi cử</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Xây dựng hệ thống thi cử đa định dạng và giám
+                          sát chống gian lận.</p>
+                      </div>
+                    </div>
+                    <div class="flex gap-3">
+                      <div class="w-1.5 h-1.5 rounded-full bg-accent/60 mt-2 flex-shrink-0"></div>
+                      <div>
+                        <p class="text-white/80 text-sm font-medium">Quản trị hệ thống</p>
+                        <p class="text-white/40 text-xs leading-relaxed">Quản trị người dùng, theo dõi tài chính và vận
+                          hành hệ thống.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-white/5"><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">ReactJS</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Ant
+                      Design</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Zustand</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">TipTap</span><span
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-white/5 text-white/60 border border-white/10 whitespace-nowrap">Hls.js</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-20 md:py-28 px-6 md:px-10 lg:px-16">
+        <div class="max-w-6xl mx-auto">
+          <div style="opacity: 1; transform: none;">
+            <div class="text-center mb-14 md:mb-20">
+              <p class="text-accent text-sm font-medium tracking-widest uppercase mb-3">Thành tích</p>
+              <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Giải thưởng &amp; Ghi nhận</h2>
+              <p class="text-white/50 text-sm md:text-base max-w-xl mx-auto">Những cột mốc đáng tự hào trong hành trình
+                phát triển sự nghiệp.</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 max-w-3xl mx-auto">
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="glass rounded-xl p-6 md:p-8 flex items-start gap-4 hover:border-accent/30 transition-all duration-300 glow-accent">
+                <div
+                  class="w-12 h-12 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                  <i class="ri-trophy-line text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-base md:text-lg font-semibold text-white mb-1">Giải nhất cuộc thi Khoa học Kỹ thuật</h3>
+                  <p class="text-white/60 text-sm mb-2">Tỉnh Ninh Bình • 2018 - 2019</p>
+                  <p class="text-accent text-sm font-medium">Lĩnh vực: Hệ thống nhúng</p>
+                </div>
+              </div>
+            </div>
+            <div class="h-full" style="opacity: 1; transform: none;">
+              <div
+                class="glass rounded-xl p-6 md:p-8 flex items-start gap-4 hover:border-accent/30 transition-all duration-300 glow-accent">
+                <div
+                  class="w-12 h-12 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                  <i class="ri-medal-line text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-base md:text-lg font-semibold text-white mb-1">Giải nhì cuộc thi Sáng tạo trẻ</h3>
+                  <p class="text-white/60 text-sm mb-2">Tỉnh Ninh Bình • 2018 - 2019</p>
+                  <p class="text-accent text-sm font-medium">Lĩnh vực: Khoa học Xã hội</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-20 md:py-28 px-6 md:px-10 lg:px-16">
+        <div class="fixed top-24 right-4 z-[100] flex flex-col gap-3"></div>
+        <div class="max-w-6xl mx-auto">
+          <div style="opacity: 1; transform: none;">
+            <div class="text-center mb-14 md:mb-20">
+              <p class="text-accent text-sm font-medium tracking-widest uppercase mb-3">Liên hệ</p>
+              <h2 class="text-2xl md:text-4xl font-bold text-white mb-4">Hãy kết nối với tôi</h2>
+              <p class="text-white/50 text-sm md:text-base max-w-xl mx-auto">Bạn có ý tưởng dự án? Hãy chia sẻ với tôi,
+                tôi sẽ giúp bạn biến nó thành hiện thực.</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 md:gap-12">
+            <div class="lg:col-span-2" style="opacity: 1; transform: none;">
+              <div class="glass rounded-xl p-6 md:p-8 h-full">
+                <h3 class="text-lg font-semibold text-white mb-6">Thông tin liên hệ</h3>
+                <div class="space-y-5">
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="w-10 h-10 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                      <i class="ri-mail-line text-lg"></i>
+                    </div>
+                    <div>
+                      <p class="text-white/40 text-xs uppercase tracking-wide mb-1">Email</p><a
+                        href="./pages/mailto:vuhuyhoang12abm@gmail.com.html"
+                        class="text-white hover:text-accent transition-colors text-sm md:text-base">vuhuyhoang12abm@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="w-10 h-10 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                      <i class="ri-phone-line text-lg"></i>
+                    </div>
+                    <div>
+                      <p class="text-white/40 text-xs uppercase tracking-wide mb-1">Điện thoại / Zalo</p><a
+                        href="./pages/tel:0839463403.html"
+                        class="text-white hover:text-accent transition-colors text-sm md:text-base">0839 463 403</a>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="w-10 h-10 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                      <i class="ri-map-pin-line text-lg"></i>
+                    </div>
+                    <div>
+                      <p class="text-white/40 text-xs uppercase tracking-wide mb-1">Địa chỉ</p>
+                      <p class="text-white text-sm md:text-base">Hà Nội, Việt Nam</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="w-10 h-10 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                      <i class="ri-github-line text-lg"></i>
+                    </div>
+                    <div>
+                      <p class="text-white/40 text-xs uppercase tracking-wide mb-1">GitHub</p><a
+                        href="https://github.com/to-ten-hoang" target="_blank" rel="noopener noreferrer"
+                        class="text-white hover:text-accent transition-colors text-sm md:text-base">@to-ten-hoang</a>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="w-10 h-10 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                      <i class="ri-global-line text-lg"></i>
+                    </div>
+                    <div>
+                      <p class="text-white/40 text-xs uppercase tracking-wide mb-1">Portfolio</p><a
+                        href="https://huyhoangdev.id.vn/" target="_blank" rel="noopener noreferrer"
+                        class="text-white hover:text-accent transition-colors text-sm md:text-base">huyhoangdev.id.vn</a>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div
+                      class="w-10 h-10 flex items-center justify-center rounded-lg bg-accent/10 text-accent flex-shrink-0">
+                      <i class="ri-instagram-line text-lg"></i>
+                    </div>
+                    <div>
+                      <p class="text-white/40 text-xs uppercase tracking-wide mb-1">Instagram</p><a
+                        href="https://www.instagram.com/hoang.august/" target="_blank" rel="noopener noreferrer"
+                        class="text-white hover:text-accent transition-colors text-sm md:text-base">@hoang.august</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lg:col-span-3" style="opacity: 1; transform: none;">
+              <form id="contact-form" class="glass rounded-xl p-6 md:p-8" data-readdy-form="true">
+                <div class="space-y-5">
+                  <div><label for="name" class="block text-white/60 text-sm mb-2">Họ và tên</label><input id="name"
+                      placeholder="Nguyễn Văn A"
+                      class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-accent/50 transition-colors"
+                      type="text" value="" name="name" required></div>
+                  <div><label for="email" class="block text-white/60 text-sm mb-2">Email</label><input id="email"
+                      placeholder="your@email.com"
+                      class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-accent/50 transition-colors"
+                      type="email" value="" name="email" required></div>
+                  <div><label for="pesan" class="block text-white/60 text-sm mb-2">Tin nhắn <span
+                        class="text-white/30 text-xs">(0/500)</span></label><textarea id="pesan" name="pesan" rows="5"
+                      maxlength="500" placeholder="Chia sẻ ý tưởng dự án của bạn..."
+                      class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-accent/50 transition-colors resize-none" required></textarea>
+                  </div><button type="submit"
+                    class="w-full btn-primary px-8 py-3.5 rounded-lg text-sm md:text-base font-semibold whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer">Gửi
+                    tin nhắn</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="py-8 md:py-10 px-6 md:px-10 lg:px-16 border-t border-white/5">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p class="text-white/40 text-sm">© 2026 Vũ Huy Hoàng. All rights reserved.</p>
+          <div class="flex items-center gap-5"><a href="https://github.com/to-ten-hoang" target="_blank"
+              rel="noopener noreferrer" class="text-white/40 hover:text-accent transition-colors"
+              aria-label="GitHub"><span class="w-5 h-5 flex items-center justify-center"><i
+                  class="ri-github-fill text-lg"></i></span></a><a href="https://huyhoangdev.id.vn/" target="_blank"
+              rel="noopener noreferrer" class="text-white/40 hover:text-accent transition-colors"
+              aria-label="Portfolio"><span class="w-5 h-5 flex items-center justify-center"><i
+                  class="ri-global-line text-lg"></i></span></a><a href="https://www.instagram.com/hoang.august/"
+              target="_blank" rel="noopener noreferrer" class="text-white/40 hover:text-accent transition-colors"
+              aria-label="Instagram"><span class="w-5 h-5 flex items-center justify-center"><i
+                  class="ri-instagram-line text-lg"></i></span></a></div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
